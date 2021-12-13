@@ -69,7 +69,7 @@ module.exports = {
           "/content/sre/onboarding/application-onboarding.md",
           "/content/sre/onboarding/environment-onboarding.md",
           "/content/sre/onboarding/cluster-onboarding.md",
-          "/content/sre/onboarding/quota-onboarding.md",          
+          "/content/sre/onboarding/quota-onboarding.md",
           "/content/sre/onboarding/developer-training.md"
         ],
       },
@@ -121,7 +121,7 @@ module.exports = {
         title: "Monitoring",
         children: [
           "/content/sre/monitoring/01-introduction.md",
-          "/content/sre/monitoring/02-maturity-model.md",          
+          "/content/sre/monitoring/02-maturity-model.md",
           "/content/sre/monitoring/app-uptime.md",
           "/content/sre/monitoring/app-alerts.md",
           "/content/sre/monitoring/goldilocks.md",
@@ -144,11 +144,11 @@ module.exports = {
       {
         title: "Backup & Restore",
         children: [
-          "/content/sre/backup-restore/01-introduction.md",          
+          "/content/sre/backup-restore/01-introduction.md",
           "/content/sre/backup-restore/velero-cli.md",
           "/content/sre/backup-restore/backup-restore.md",
           "content/sre/backup-restore/troubleshoot.md",
-          "content/sre/backup-restore/cleanup.md",          
+          "content/sre/backup-restore/cleanup.md",
           "/content/sre/backup-restore/stateful-app-example.md",
           "/content/sre/backup-restore/restore-with-gitops.md",
           "/content/sre/backup-restore/02-limitations.md"
@@ -190,6 +190,13 @@ module.exports = {
           "/content/sre/tenant-operator/admin_roles.md",
           "/content/sre/tenant-operator/tenant_roles.md",
         ],
+      },
+      {
+         title:"Tronador",
+         children: [
+            "/content/sre/tronador/overview.md",
+            "/content/sre/tronador/custom_resources.md",
+         ]
       },
       {
         title: "Frequently Asked Questions",
